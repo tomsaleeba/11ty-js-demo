@@ -1,12 +1,10 @@
 {
   "scripts": {
-    "build": "rm -fr _site/ && npx @11ty/eleventy --quiet",
-    "start": "servor _site nothing.html ${PORT:-8080} --reload"
+    "build": "rm -fr _site/ && eleventy --quiet",
+    "start": "eleventy --serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0"
   },
-  "devDependencies": {
-    "servor": "^3.2.0"
-  }
+  "devDependencies": {}
 }

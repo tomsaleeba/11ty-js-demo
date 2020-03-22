@@ -5,7 +5,7 @@ A slightly modified version of what appears here https://youtu.be/X3SrZuH00GQ?t=
       ```bash
       yarn
       ```
-  1. build it with
+  1. build the files to the `_site/` output dir with
       ```bash
       yarn build
       ```
@@ -13,5 +13,4 @@ A slightly modified version of what appears here https://youtu.be/X3SrZuH00GQ?t=
       ```bash
       yarn serve
       ```
-  1. now you can go to http://localhost:8080/20/index.html or
-     http://localhost:8080/666/index.html.
+  1. now you can go to http://localhost:8080/ to see a list of tweets with links to each

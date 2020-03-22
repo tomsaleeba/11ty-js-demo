@@ -5,7 +5,7 @@
 class TweetsToFile {
   data() {
     return {
-      tweets: stubbedRequire('./tweets.js'),
+      tweets: require('./tweets.js'),
       pagination: {
         data: 'tweets',
         size: 1,
@@ -23,16 +23,3 @@ class TweetsToFile {
 }
 
 module.exports = TweetsToFile
-
-function stubbedRequire() {
-  return [
-    {
-      id_str: '20',
-      full_text: 'First tweet ever!',
-    },
-    {
-      id_str: '666',
-      full_text: 'Roses are red...',
-    },
-  ]
-}
